@@ -12,6 +12,8 @@
 		E0DFBECB285849CD008DB578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0DFBEC9285849CD008DB578 /* Main.storyboard */; };
 		E0DFBECD285849DA008DB578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0DFBECC285849DA008DB578 /* Assets.xcassets */; };
 		E0DFBED0285849DA008DB578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0DFBECE285849DA008DB578 /* LaunchScreen.storyboard */; };
+		E0DFBED828584C94008DB578 /* .hound.yml in Resources */ = {isa = PBXBuildFile; fileRef = E0DFBED728584C94008DB578 /* .hound.yml */; };
+		E0DFBEDA28584C9D008DB578 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = E0DFBED928584C9D008DB578 /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E0DFBECC285849DA008DB578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0DFBECF285849DA008DB578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0DFBED1285849DA008DB578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0DFBED728584C94008DB578 /* .hound.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = .hound.yml; path = ../.hound.yml; sourceTree = "<group>"; };
+		E0DFBED928584C9D008DB578 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = .swiftlint.yml; path = ../.swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		E0DFBEB7285849CD008DB578 = {
 			isa = PBXGroup;
 			children = (
+				E0DFBED728584C94008DB578 /* .hound.yml */,
+				E0DFBED928584C9D008DB578 /* .swiftlint.yml */,
 				E0DFBEC2285849CD008DB578 /* TestHound */,
 				E0DFBEC1285849CD008DB578 /* Products */,
 			);
@@ -122,8 +128,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0DFBEDA28584C9D008DB578 /* .swiftlint.yml in Resources */,
 				E0DFBED0285849DA008DB578 /* LaunchScreen.storyboard in Resources */,
 				E0DFBECD285849DA008DB578 /* Assets.xcassets in Resources */,
+				E0DFBED828584C94008DB578 /* .hound.yml in Resources */,
 				E0DFBECB285849CD008DB578 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
